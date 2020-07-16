@@ -1,5 +1,5 @@
 def my_hash_creator(key, value)
-  { name, id }
+  { key => value }
 end
 
 def read_from_hash(hash, key)
